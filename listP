@@ -1,0 +1,23 @@
+a=list(map(int,input('Введите ваши отметки по математике: ').split()))
+sredA=sum(a)/len(a)
+
+b=list(map(int,input('Введите ваши отметки по Русскому языку: ').split()))
+sredB=sum(b)/len(b)
+
+c=list(map(int,input('Введите ваши отметки по Литературе: ').split()))
+sredC=sum(c)/len(c)
+
+print('оценки за месяц: ',a)
+print('--------------')
+print('Среднее значение: ',sredA)
+print('==============')
+
+print('оценки за месяц: ',b)
+print('--------------')
+print('Среднее значение: ',sredB)
+print('==============')
+
+print('оценки за месяц: ',c)
+print('--------------')
+print('Среднее значение: ',sredC)
+print('==============')
